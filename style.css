@@ -1,0 +1,102 @@
+/*body{
+	font-family: Courier, monospace;
+	font-size: 30px;
+	line-height: 1.6;
+	letter-spacing: 10px;
+	font-weight: 200;
+	/* from 100 to 900 */
+
+selector {         /* Select elements of your page */
+  property: value; /* Design a first property */
+	property: value; /* Then a second */
+	property: value; /* Etc... */
+}
+
+img{
+	border-radius: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+body {
+	background-color: rgb(230,230,230);
+	color:(30,30,30);
+	font-family: Courier, monospace;
+	font-size: 13px;
+}
+
+h1{
+	color: red;
+	font-family: Helvetica;
+}
+
+h2, h3, h4, h5, h6{
+	color: green;
+	font-family: Helvetica;
+	font-weight : lighter ;
+}
+
+h2 {
+text-align: center;	
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+
+.card-white{
+	background: white;                         /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+margin: 0px auto;
+}
+
+#container-url{
+	background: lightgreen;               /* White background */
+padding: 30px;                             /* Internal space */
+border-radius: 4px;                        /* Small radius */
+box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+margin: 0px auto ;
+width:60px;
+height: 0px ;
+}
+
+ #container {
+    margin: 40px auto;
+  }
+
+@media (max-width: 960px){
+/*  
+This allows to put specific information for 
+a specific device with a certain amount of pixels
+this comes in handy when your website is read 
+on different platforms such as but not limited to
+phone tablet computer...
+
+*/
+  #container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px){
+
+ #container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px){
+ #container {
+    width: 300px;
+  }
+
+}
+
